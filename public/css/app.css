@@ -1,0 +1,9 @@
+body {
+    background-color: rgba(201, 225, 243, 0.5);
+}
+footer .footer p{
+    height: 140px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 30px;
+}

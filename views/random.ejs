@@ -1,0 +1,10 @@
+<%- include('partials/head.ejs') %>
+
+   <!-- navbar partials -->
+   <%- include('partials/navbar.ejs') %>
+   <div class="container">
+        <h1>Your random number is: <%= rand %></h1>
+        <h2><%= rand % 2 === 0 ? 'This is even' : 'This is odd'%> </h2>
+    </div>
+<!-- Footer partials -->
+<%- include('partials/footer.ejs') %>
